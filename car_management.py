@@ -18,21 +18,31 @@ class Car:
         Car.total_cars += 1
         return curr_cars
     
-    #@property
-    #def update_mileage(self):
-    #    return self.update_mileage
+    @property
+    def get_id(self):
+        return self.get_id
+    
+    @get_id.setter
+    def id(self, car_id):
+        if not (isinstance(car_id, int)):
+            return f"I'm sorry, that is an invalid vehicle id number."
+        self._id = car_id
 
-    #@update_mileage.setter
-    #def update(self, mileage_is):
-    #    if not (isinstance(mileage_is, int)):
-    #        return f"Mileage input must be in numerical format, not string"
-    #    elif 3000 < mileage_is < 5000:
-    #        return f"Your car's overdue for a check-up! Schedule now, before any damage occurs."
-    #    elif 0 < mileage_is < 1500:
-    #        return f"Looking good right now."
-    #    elif 1500 < mileage_is < 3000:
-    #        return f"Looks like you're due for a check-up! Please schedule within the next few days."
-    #    self._mileage = mileage_is
+    @property
+    def update_mileage(self):
+        return self.update_mileage
+
+    @update_mileage.setter
+    def update(self, mileage_is):
+        if not (isinstance(mileage_is, int)):
+            return f"Mileage input must be in numerical format, not string"
+        elif 3000 < mileage_is < 5000:
+            return f"Your car's overdue for a check-up! Schedule now, before any damage occurs."
+        elif 0 < mileage_is < 1500:
+            return f"Looking good right now."
+        elif 1500 < mileage_is < 3000:
+            return f"Looks like you're due for a check-up! Please schedule within the next few days."
+        self._mileage = mileage_is
 
     def car_deets(self):
         return f"{self.id}, {self.make}, {self.model}, {self.year}, {self.mileage}"
