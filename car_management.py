@@ -44,6 +44,19 @@ class Car:
             return f"Looks like you're due for a check-up! Please schedule within the next few days."
         self._mileage = mileage_is
 
+    @property
+    def get_year(self):
+        return self.get_year
+    
+    @get_year.setter
+    def year(self, year_is):
+        if not (3 < year_is < 5):
+            return f"I'm sorry, that year is not in our database. A year must be four characters long."
+        elif not (isinstance(year_is, int)):
+            return f"I'm sorry, the year of your vehicle cannot be a string. It must be of numerical value."
+        self._year = year_is
+
+
     #def car_deets(self):
     #    return f"{self.id}, {self.make}, {self.model}, {self.year}, {self.mileage}"
 
