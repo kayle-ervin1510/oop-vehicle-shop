@@ -15,7 +15,7 @@ class Car:
         self.total_cars = Car.number_Cars
         """
 
-    def generate_cars():
+    def add_cars():
         total_cars = Car.number_cars
         Car.number_cars += 1
         return total_cars
