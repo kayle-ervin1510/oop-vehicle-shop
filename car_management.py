@@ -37,13 +37,13 @@ class Car:
     @update_mileage.setter
     def update(self, mileage_is):
         if not (isinstance(mileage_is, int)):
-            return f"Mileage input must be in numerical format, not string"
+            return f"Mileage input must be in numerical format."
         elif 3000 < mileage_is < 5000:
-            return f"Your car's overdue for a check-up! Schedule now, before any damage occurs."
+            return f"Danger! Your car needs immediate maintinence."
         elif 0 < mileage_is < 1500:
             return f"Looking good right now."
         elif 1500 < mileage_is < 3000:
-            return f"Looks like you're due for a check-up! Please schedule within the next few days."
+            return f"Your car is due for a tune-up. Please schedule a tune-up within the next week, to avoid damage to your vechile."
         self._mileage = mileage_is
 
     @property
@@ -53,7 +53,7 @@ class Car:
     @get_year.setter
     def year(self, year_is):
         if not (3 < year_is < 5):
-            return f"I'm sorry, that year is not in our database. A year must be four characters long."
+            return f"I'm sorry, that year is not in our database. Our database only keeps track of vehicles whose year is 4 digits long. Nothing stone-age here!"
         elif not (isinstance(year_is, int)):
             return f"I'm sorry, the year of your vehicle cannot be a string. It must be of numerical value."
         self._year = year_is
