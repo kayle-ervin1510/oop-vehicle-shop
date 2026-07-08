@@ -44,14 +44,14 @@ class Car:
             return f"Looks like you're due for a check-up! Please schedule within the next few days."
         self._mileage = mileage_is
 
-    def car_deets(self):
-        return f"{self.id}, {self.make}, {self.model}, {self.year}, {self.mileage}"
+    #def car_deets(self):
+    #    return f"{self.id}, {self.make}, {self.model}, {self.year}, {self.mileage}"
 
     def __str__(self):
         return f"{self.id}, {self.make}, {self.model}, {self.year}, {self.mileage}, {self.services}"
 
-def car_management():
-    user_input = input("Welcome to Car Manager! Here are your menu options: 1. Add a car, 2. View all cars, 3. View total number of cars, 4. See a car's details, 5. Service a car, 6. Update Mileage, 7. Quit. Please enter the number of your selection to get started.")
+#def car_management():
+#    user_input = input("Welcome to Car Manager! Here are your menu options: 1. Add a car, 2. View all cars, 3. View total number of cars, 4. See a car's details, 5. Service a car, 6. Update Mileage, 7. Quit. Please enter the number of your selection to get started.")
     
     #if user_input == "1":
 
