@@ -1,6 +1,6 @@
 class Car:
 
-    total_cars = 0
+    number_cars = 0
     all_cars = []
     
 
@@ -11,12 +11,14 @@ class Car:
         self.year = year
         self.mileage = mileage
         self.services = services
-        self.curr_cars = Car.total_cars
+        """
+        self.total_cars = Car.number_Cars
+        """
 
     def generate_cars():
-        curr_cars = Car.total_cars
-        Car.total_cars += 1
-        return curr_cars
+        total_cars = Car.number_cars
+        Car.number_cars += 1
+        return total_cars
     
     @property
     def get_id(self):
