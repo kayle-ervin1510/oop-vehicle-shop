@@ -56,6 +56,28 @@ class Car:
             return f"I'm sorry, the year of your vehicle cannot be a string. It must be of numerical value."
         self._year = year_is
 
+    @property
+    def check_make(self):
+        return self.check_make
+    
+    @check_make.setter
+    def make(self, make_is):
+        if not (isinstance(make_is, str)):
+            return f"I'm sorry, that make is invalid. The make of your vehicle must be a string."
+        self._make = make_is
+    
+    @property
+    def check_model(self):
+        return self.check_model
+    
+    @check_model.setter
+    def model(self, model_is):
+        if not (isinstance(model_is, str)):
+            return f"I'm sorry, that model is invalid. The model of your vehicle must be a string."
+        elif (len(model_is) < 2):
+            return f"I'm sorry, we do not recognize that car model. The model's we know of contain at least 3 characters."
+        self._model = model_is
+
 
     #def car_deets(self):
     #    return f"{self.id}, {self.make}, {self.model}, {self.year}, {self.mileage}"
