@@ -11,7 +11,7 @@ print(
 
 #print(Car.car_deets)
 
-print(Car.total_cars)
+print(Car.number_cars)
 
 #print(Car.all_cars)
 
