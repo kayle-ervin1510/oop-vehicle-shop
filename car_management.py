@@ -87,19 +87,3 @@ class Car:
     def __str__(self):
         return f"{self.id}, {self.make}, {self.model}, {self.year}, {self.mileage}, {self.services}"
 
-#def car_management():
-#    user_input = input("Welcome to Car Manager! Here are your menu options: 1. Add a car, 2. View all cars, 3. View total number of cars, 4. See a car's details, 5. Service a car, 6. Update Mileage, 7. Quit. Please enter the number of your selection to get started.")
-    
-    #if user_input == "1":
-
-    #elif user_input == "2":
-
-    #elif user_input == "3":
-    
-    #elif user_input == "4":
-
-    #elif user_input == "5":
-
-    #elif user_input == "6":
-
-    #elif user_input == "7":
