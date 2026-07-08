@@ -9,9 +9,9 @@ print(
     """
 )
 
-print(Car.car_deets)
+#print(Car.car_deets)
 
 print(Car.total_cars)
 
-print(Car.all_cars)
+#print(Car.all_cars)
 

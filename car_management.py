@@ -11,11 +11,12 @@ class Car:
         self.year = year
         self.mileage = mileage
         self.services = services
-        self.all_cars = Car.total_cars
+        self.curr_cars = Car.total_cars
 
-    #def generate_cars():
-    #    curr_cars = Car.total_cars += 1
-    #    return curr_cars
+    def generate_cars():
+        curr_cars = Car.total_cars
+        Car.total_cars += 1
+        return curr_cars
     
     #@property
     #def update_mileage(self):
