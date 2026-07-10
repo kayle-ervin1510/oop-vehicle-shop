@@ -5,11 +5,11 @@ class Student:
         self.grade = grade
 
     @property
-    def get_the_name(self):
+    def get_the_name(self) -> str:
         return self.get_the_name
     
     @get_the_name.setter
-    def name(self, name_is):
+    def name(self, name_is) -> str:
         if not (isinstance(name_is, str)):
             return "Invalid input type - must be a string."
         elif not len(name_is) >= 3:
@@ -19,11 +19,11 @@ class Student:
         self._name = name_is.strip().title()
 
     @property
-    def get_the_age(self):
+    def get_the_age(self) -> int:
         return self.get_the_age
     
     @get_the_age.setter
-    def age(self, age_num):
+    def age(self, age_num) -> int:
         if not(isinstance(age_num, int)):
             return "Age is a number. It can't be anything else."
         elif not (11 < age_num < 19):
@@ -31,7 +31,7 @@ class Student:
         self._age = age_num
 
     @property
-    def get_that_grade(self):
+    def get_that_grade(self) -> str:
         return self.get_that_grade
     
     @get_that_grade.setter
