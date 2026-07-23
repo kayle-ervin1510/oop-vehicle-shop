@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To Do List Part 1</title>
+        <link rel="stylesheet" href="./style/styles.css"></link>
+        <style>
+            #spec{
+                color:rgb(203, 203, 145)
+            }
+        </style>
+    </head>
+    <body>
+        <header class="site-header">
+            <p class="eyebrow"><strong>
+                Dakota Assignment 1
+            </strong></p>
+            <h1 id="page-title">To Do List Part 1</h1>
+            <p class="subtitle">
+                Here is your To-Do List
+            </p>
+        </header>
+
+        <main class="page-layout">
+            <section class="panel">
+                <h2 id="spec" style="color: #b214d5;">Unordered list of tasks</h2>
+                <p>
+                    Below are a list of tasks to do today
+                </p>
+                <ul>
+                    <li id="Make-brownies">Make brownies</li>
+                        <label for="MakeBrownies-input">
+                        Complete
+                        <input
+                            id="MakeBrownies-input"
+                            name="Complete"
+                            type="checkbox"
+                            value="yes"
+                            checked="checked"
+                            >
+                        </label>
+                    <li id="Collect-eggs">Collect eggs</li>
+                    <label for="CollectEggs-input">
+                        Complete
+                        <input
+                            id="CollectEggs-input"
+                            name="Complete"
+                            type="checkbox"
+                            value="yes"
+                            checked="checked"
+                            >
+                        </label>
+                    <li id="Dakota-homework">Dakota Homework</li>
+                    <label for="DakotaHomework-input">
+                        Complete
+                        <input
+                            id="DakotaHomework-input"
+                            name="Complete"
+                            type="checkbox"
+                            value="yes"
+                            checked="checked"
+                            >
+                        </label>
+                    
+                    <li id="General-cleaning">General cleaning</li>
+                    <label for="GeneralCleaning-input">
+                        Complete
+                        <input
+                            id="GeneralCleaning-input"
+                            name="Complete"
+                            type="checkbox"
+                            value="yes"
+                            checked="checked"
+                            >
+                        </label>
+                </ul>
+                <h3>Above are your tasks.</h3>
+            </section>
+            <section class="new-tasks">
+                <h3>You can make a new task here!</h3>
+                <form id="task-form" class="task-form">
+                    <label for="task-input">Tasks</label>
+                    <input
+                        id="task-input"
+                        name="taskName"
+                        type="text"
+                        placeholder="Write task here"
+                        required
+                    >
+                </label>
+                    <button type="submit">Update List</button>
+                </form>
+                <p id="form-output" class="output-text">
+                    Submit the form and JavaScript will change this text.
+                </p>
+            </section>
+        </main>
+        <footer class="site-footer">
+            <p> &copy; 2026 Kaylee Ervin</p>
+        </footer>
+    </body>
+</html>

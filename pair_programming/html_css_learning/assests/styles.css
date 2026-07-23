@@ -1,0 +1,140 @@
+*{
+    box-sizing:border-box;
+}
+
+body {
+    margin: 0;
+    background-color: ivory;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f2907
+}
+
+.site-header {
+    padding: 32px;
+    background: #272190;
+    color: white;
+}
+
+.eyebrow {
+    margin: 0 0 8px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #c7d2fe
+}
+
+#page-title {
+    margin: 0;
+    font-size: 48px;
+}
+
+.subtitle {
+    color:aquamarine;
+}
+
+.page-layout {
+    padding: 16px;
+}
+
+.panel {
+    max-width: 900px;
+    margin: 0 auto 16px;
+    padding: 16px;
+
+    border: 1px solid #d1d5dd;
+    border-radius: 16px;
+    background: white;
+    box-shadow: 0 2px 8px #d1d5dd;
+}
+
+.panel h2 {
+    margin-top: 0;
+}
+
+.logo {
+    width: 200px;
+    max-width: 100%;
+}
+
+.demo-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.demo-table th,
+.demo-table td {
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    text-align: left;
+}
+
+.demo-table th {
+    background: #eef2ff;
+}
+
+.selector-demo p {
+    padding:8px;
+    border-radius: 6px;
+    background: #f3f4f7;
+}
+
+.callout {
+    font-weight: bold;
+    background: #fef3c7;
+}
+
+#unique-message {
+    border: 2px solid #4f46e5;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.user-form label,
+.user-form input,
+.user-form button {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    border: 0;
+    border-radius: 6px;
+    background: #4f46e5;
+    color: white;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3730a3
+}
+
+.output-text {
+    font-weight: bold;
+}
+
+.dynamic-container{
+    margin-top: 16px;
+}
+
+.demo-box {
+    margin-bottom: 8px;
+    padding: 12px;
+    border: 2px dashed #4f46e5;
+    border-radius: 8px;
+    background: #eef2ff;
+}
+
+.site-footer {
+    padding: 16px 32px;
+    text-align: center;
+    background: #e5e
+}

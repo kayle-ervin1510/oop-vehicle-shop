@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: lavenderblush;
+    font-family: Gerogia, 'Times New Roman', Verdana;
+    color: navy
+}
+
+.site-header {
+    padding: 32px;
+    background: lavender;
+    color: rgb(20, 20, 190);
+}
+
+.eyebrow {
+    margin: 0 0 8px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(249, 97, 173)
+}
+
+#page-title {
+    margin: 0;
+    font-size: 35px;
+}
+
+.subtitle {
+    padding: aquamarine;
+}
+
+#Make-brownies {
+    font-weight: bold;
+}
+
+
+#Collect-eggs {
+    font-weight: bold;
+}
+
+#Dakota-homework {
+    font-weight: bold;
+}
+
+#General-cleaning {
+    font-weight: bold;
+}
+
+.page-layout {
+    padding: 16px;
+}
+
+.new-tasks {
+    box-sizing:border-box;
+    background: #e5d5fe;
+}

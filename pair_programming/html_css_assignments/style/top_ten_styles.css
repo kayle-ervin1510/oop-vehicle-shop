@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    background-color: rgb(99, 209, 172);
+    font-family: Adamina, Calibri, Arial;
+    color: rgb(73, 25, 114);
+}
+
+.site-header {
+    padding: 32px;
+    background: beige;
+    color: navy;
+    margin: 5 auto 16px;
+    border: 5px solid navy;
+}
+
+.eyebrow {
+    margin: 0 0 9px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: darkred;
+}
+
+#page-title {
+    margin: 0;
+    font-size: 35px;
+}
+
+.subtitle {
+    color: darkred;
+
+}
+
+.page-layout {
+    padding: 16px;
+    background: rgb(99, 209, 172);
+}
+
+.panel {
+    
+    
+    max-width: 900px;
+    margin: 0 auto 16px;
+    padding: 16px;
+
+    border: 1px solid navy;
+    border-width: thick;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgb(34, 119, 119);
+
+    font-size: 12;
+    color: rgb(36, 17, 84);
+}
+
+#spec {
+    text-align: center;
+    color: navy;
+}
+
+.conclusion {
+    color: rgb(73, 25, 114);
+    
+}
+
+#subtitle-2 {
+    color: navy;
+}
+
+#copyright {
+    color: darkcyan;
+    text-transform: lowercase;
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+* {
+  background-color: beige;
+}
+
+.title {
+  font-size: 45px;
+  text-align: center;
+  color: brown;
+  background-color: burlywood;
+  font-family: 'Times New Roman';
+
+}
+
+.intro {
+  color: rgb(128, 37, 37);
+  font-family: Verdana, Tahoma;
+
+}
+
+.welcome {
+  text-align: center;
+  background-color: lightgrey;
+  
+}
+
+.copyright {
+  text-align: center;
+  color: black;
+}

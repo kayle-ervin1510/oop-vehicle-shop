@@ -1,0 +1,24 @@
+.overlay {
+  background-color: beige;
+  height: 1500px;
+
+}
+.top {
+  background-color: rgb(194, 223, 232);
+  height: 100px;
+  color: darkblue;
+}
+
+.words {
+  color: rgb(7, 7, 196);
+}
+
+.power {
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+.copyRight {
+  background-color: ivory;
+  color: black;
+}
