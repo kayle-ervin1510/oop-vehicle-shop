@@ -1,0 +1,42 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@11.13.0
+2 info using node@v24.16.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/animegurl/.cache/typescript/6.0/.npmrc
+5 silly config load:file:/home/animegurl/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install types-registry@latest
+8 verbose argv "install" "--ignore-scripts" "types-registry@latest"
+9 verbose logfile logs-max:10 dir:/home/animegurl/.npm/_logs/2026-05-29T16_58_02_548Z-
+10 verbose logfile /home/animegurl/.npm/_logs/2026-05-29T16_58_02_548Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly packumentCache corgi:https://registry.npmjs.org/types-registry cache-miss
+14 http fetch GET 200 https://registry.npmjs.org/types-registry 340ms (cache miss)
+15 silly packumentCache corgi:https://registry.npmjs.org/types-registry set size:undefined disposed:false
+16 silly idealTree buildDeps
+17 silly fetch manifest types-registry@0.1.771
+18 silly packumentCache full:https://registry.npmjs.org/types-registry cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/npm 387ms
+20 http fetch GET 200 https://registry.npmjs.org/types-registry 211ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/types-registry set size:undefined disposed:false
+22 silly placeDep ROOT types-registry@0.1.771 OK for:  want: 0.1.771
+23 silly reify moves {}
+24 silly audit bulk request { 'types-registry': [ '0.1.771' ] }
+25 http cache types-registry@https://registry.npmjs.org/types-registry/-/types-registry-0.1.771.tgz 0ms (cache hit)
+26 silly tarball no local data for types-registry@https://registry.npmjs.org/types-registry/-/types-registry-0.1.771.tgz. Extracting by manifest.
+27 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 86ms
+28 silly audit report {}
+29 http fetch GET 200 https://registry.npmjs.org/types-registry/-/types-registry-0.1.771.tgz 152ms (cache miss)
+30 silly ADD node_modules/types-registry
+31 verbose cwd /home/animegurl/.cache/typescript/6.0
+32 verbose os Linux 6.6.114.1-microsoft-standard-WSL2
+33 verbose node v24.16.0
+34 verbose npm  v11.13.0
+35 notice
+35 notice New minor version of npm available! 11.13.0 -> 11.16.0
+35 notice Changelog: https://github.com/npm/cli/releases/tag/v11.16.0
+35 notice To update run: npm install -g npm@11.16.0
+35 notice  { force: true, Symbol(proc-log.meta): true }
+36 verbose exit 0
+37 info ok

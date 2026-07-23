@@ -1,0 +1,14 @@
+{
+  "socketPath": "/tmp/mcp-Eh3Z9I/mcp.sock",
+  "scheme": "unix",
+  "headers": {
+    "Authorization": "Nonce 95ab264a-e964-4dba-a5ea-74eb3abc50e8"
+  },
+  "pid": 2935,
+  "ideName": "Visual Studio Code",
+  "timestamp": 1780409764725,
+  "workspaceFolders": [
+    "/home/animegurl/website"
+  ],
+  "isTrusted": true
+}

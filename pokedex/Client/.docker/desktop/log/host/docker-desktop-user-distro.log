@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------->8
+[2026-06-01T21:30:02.313210929Z][docker-desktop-user-distro] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/anime/.docker/contexts
+[2026-06-01T21:30:02.319124919Z][docker-desktop-user-distro] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/anime/.docker/contexts os.Symlink <HOME>/.docker/contexts -> /mnt/c/Users/anime/.docker/contexts
+-------------------------------------------------------------------------------->8
+[2026-06-01T21:30:02.867451974Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/anime/.aws, linkPath = <HOME>/.aws
+-------------------------------------------------------------------------------->8
+[2026-06-01T21:30:03.594754175Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/anime/.azure, linkPath = <HOME>/.azure
+-------------------------------------------------------------------------------->8
+[2026-06-01T21:30:04.344168249Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/anime/.docker/features.json, linkPath = ~/.docker/features.json

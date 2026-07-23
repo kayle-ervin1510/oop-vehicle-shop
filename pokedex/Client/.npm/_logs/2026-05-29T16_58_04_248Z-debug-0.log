@@ -1,0 +1,49 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@11.13.0
+2 info using node@v24.16.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/animegurl/.cache/typescript/6.0/.npmrc
+5 silly config load:file:/home/animegurl/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install @types/react@ts6.0
+8 verbose argv "install" "--ignore-scripts" "@types/react@ts6.0" "--save-dev" "--user-agent" "typesInstaller/6.0.3"
+9 verbose logfile logs-max:10 dir:/home/animegurl/.npm/_logs/2026-05-29T16_58_04_248Z-
+10 verbose logfile /home/animegurl/.npm/_logs/2026-05-29T16_58_04_248Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly packumentCache corgi:https://registry.npmjs.org/@types%2freact cache-miss
+14 http fetch GET 200 https://registry.npmjs.org/@types%2freact 535ms (cache miss)
+15 silly packumentCache corgi:https://registry.npmjs.org/@types%2freact set size:undefined disposed:false
+16 silly idealTree buildDeps
+17 silly fetch manifest @types/react@19.2.15
+18 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/@types%2freact 290ms (cache miss)
+20 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:undefined disposed:false
+21 silly placeDep ROOT @types/react@19.2.15 OK for:  want: 19.2.15
+22 silly fetch manifest csstype@^3.2.2
+23 silly packumentCache full:https://registry.npmjs.org/csstype cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/csstype 106ms (cache miss)
+25 silly packumentCache full:https://registry.npmjs.org/csstype set size:undefined disposed:false
+26 silly placeDep ROOT csstype@3.2.3 OK for: @types/react@19.2.15 want: ^3.2.2
+27 silly reify moves {}
+28 silly audit bulk request {
+28 silly audit   'types-registry': [ '0.1.771' ],
+28 silly audit   '@types/react': [ '19.2.15' ],
+28 silly audit   csstype: [ '3.2.3' ]
+28 silly audit }
+29 http cache @types/react@https://registry.npmjs.org/@types/react/-/react-19.2.15.tgz 0ms (cache hit)
+30 http cache csstype@https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz 0ms (cache hit)
+31 silly tarball no local data for @types/react@https://registry.npmjs.org/@types/react/-/react-19.2.15.tgz. Extracting by manifest.
+32 silly tarball no local data for csstype@https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz. Extracting by manifest.
+33 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 60ms
+34 silly audit report {}
+35 http fetch GET 200 https://registry.npmjs.org/@types/react/-/react-19.2.15.tgz 185ms (cache miss)
+36 http fetch GET 200 https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz 201ms (cache miss)
+37 silly ADD node_modules/csstype
+38 silly ADD node_modules/@types/react
+39 verbose cwd /home/animegurl/.cache/typescript/6.0
+40 verbose os Linux 6.6.114.1-microsoft-standard-WSL2
+41 verbose node v24.16.0
+42 verbose npm  v11.13.0
+43 verbose exit 0
+44 info ok

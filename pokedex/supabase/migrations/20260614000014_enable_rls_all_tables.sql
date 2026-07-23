@@ -1,0 +1,7 @@
+ALTER TABLE public."Parent_Profile"      ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public."Children_Profile"    ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public."Connected_Devices"   ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public."App_Restrictions"    ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public."Time_Restricted_Apps" ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public."Time_Unlimited_Apps"  ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public."Unauthorized_Apps"    ENABLE ROW LEVEL SECURITY;

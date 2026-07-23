@@ -1,0 +1,36 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@11.13.0
+2 info using node@v24.16.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/animegurl/.cache/typescript/6.0/.npmrc
+5 silly config load:file:/home/animegurl/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install types-registry@latest
+8 verbose argv "install" "--ignore-scripts" "types-registry@latest"
+9 verbose logfile logs-max:10 dir:/home/animegurl/.npm/_logs/2026-05-29T16_58_51_196Z-
+10 verbose logfile /home/animegurl/.npm/_logs/2026-05-29T16_58_51_196Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly packumentCache corgi:https://registry.npmjs.org/types-registry cache-miss
+14 http cache https://registry.npmjs.org/types-registry 32ms (cache hit)
+15 silly packumentCache corgi:https://registry.npmjs.org/types-registry set size:625292 disposed:false
+16 silly idealTree buildDeps
+17 silly fetch manifest types-registry@0.1.771
+18 silly packumentCache full:https://registry.npmjs.org/types-registry cache-miss
+19 http cache https://registry.npmjs.org/types-registry 15ms (cache hit)
+20 silly packumentCache full:https://registry.npmjs.org/types-registry set size:1354319 disposed:false
+21 silly placeDep ROOT types-registry@0.1.771 REPLACE for:  want: 0.1.771
+22 silly reify moves {}
+23 silly audit bulk request {
+23 silly audit   '@types/react': [ '19.2.15' ],
+23 silly audit   csstype: [ '3.2.3' ],
+23 silly audit   'types-registry': [ '0.1.771' ]
+23 silly audit }
+24 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 514ms
+25 silly audit report {}
+26 verbose cwd /home/animegurl/.cache/typescript/6.0
+27 verbose os Linux 6.6.114.1-microsoft-standard-WSL2
+28 verbose node v24.16.0
+29 verbose npm  v11.13.0
+30 verbose exit 0
+31 info ok

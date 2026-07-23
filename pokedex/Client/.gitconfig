@@ -1,0 +1,13 @@
+[user]
+	name = Kaylee Ervin
+	email = kaylee.ervin1510@gmail.com
+[core]
+	editor = code
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[code]
+	editor = code

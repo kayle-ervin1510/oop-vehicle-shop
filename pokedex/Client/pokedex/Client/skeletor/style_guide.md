@@ -1,0 +1,1 @@
+In regards to styling, create an application that will utilize the color scheme from the Netflix show BNA.

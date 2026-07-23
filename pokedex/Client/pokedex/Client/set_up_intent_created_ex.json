@@ -1,0 +1,86 @@
+{
+"id": 
+"evt_abc123xyz",
+"object": 
+"event",
+"api_version": 
+"2019-02-19",
+"created": 
+1686089970,
+"data": {
+"object": {
+"id": 
+"seti_abc123xyz",
+"object": 
+"setup_intent",
+"application": 
+null,
+"automatic_payment_methods": 
+null,
+"cancellation_reason": 
+null,
+"client_secret": 
+"seti_abc123xyz_secret_abc123xyz",
+"created": 
+1686089970,
+"customer": 
+null,
+"description": 
+null,
+"flow_directions": 
+null,
+"last_setup_error": 
+null,
+"latest_attempt": 
+null,
+"livemode": 
+false,
+"mandate": 
+null,
+"metadata": {},
+"next_action": 
+null,
+"on_behalf_of": 
+null,
+"payment_method": 
+"pm_abc123xyz",
+"payment_method_options": {
+"acss_debit": {
+"currency": 
+"cad",
+"mandate_options": {
+"interval_description": 
+"First day of every month",
+"payment_schedule": 
+"interval",
+"transaction_type": 
+"personal"
+},
+"verification_method": 
+"automatic"
+}
+},
+"payment_method_types": [
+"acss_debit"
+],
+"single_use_mandate": 
+null,
+"status": 
+"requires_confirmation",
+"usage": 
+"off_session"
+}
+},
+"livemode": 
+false,
+"pending_webhooks": 
+0,
+"request": {
+"id": 
+null,
+"idempotency_key": 
+null
+},
+"type": 
+"setup_intent.created"
+}
